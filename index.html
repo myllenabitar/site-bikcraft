@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  
+
+    <body>
+        <title>
+            Bikcraft
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <header class="header">
+             <div class="introdução">
+                <div class="introdução-cover">
+                    <img class="bikcraft-foto" src="img/bikcraft.svg">
+                </div>
+                <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+                <nav>
+                    <div id="item" class="menu">
+                        <a class="menu-item" href="SOBRE"> SOBRE</a>
+                        <a class="menu-item" href="PRODUTOS"> PRODUTOS</a>
+                        <a class="menu-item" href="LOJAS"> LOJAS</a>
+                        <a class="menu-item" href="CONTATO"> CONTATO</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="conteudo">
+                    <div class="nimbus">
+
+                        <h2>Bicicletas feitas à mão</h2>
+                        <p>
+                            A Nimbus Stark é a melhor bikcraft já criada pela nossa equipe. Ela vem equipada com os
+                            melhores acessórios
+                            da
+                            marca.
+                        </p>
+                        <a href="#" class="link-ver-mais">VER MAIS </a>
+                    </div>
+                    <div class="foto-bicicleta">
+                        <img src="img/bicicleta.jpg">
+                    </div>
+                    <div class="vantagens-bikcraft">
+                        VANTAGENS BIKCRAFT
+                    </div>
+
+                    <div class="informes">
+                         <div class="vantagens-item">
+                                <div class="informes-imagem"><img src="img/eletrica.svg"></div>
+                                <h4>Motor Elétrico</h4>
+                                <p>Permite você viajar distancias inimagináveis com sua bike.</p>
+                            </div>
+                            <div class="vantagens-item">
+                                <div class="informes-imagem"><img src="img/velocidade.svg"></div>
+                                <h4>40KM/H</h4>
+                                <p > A mais rápida bicleta disponível hoje no mercado.</p>
+                            </div>
+                            <div class="vantagens-item">
+                                <div class="informes-imagem"><img src="img/rastreador.svg"></div>
+                                <h4 >Rastreador</h4>
+                                <p>Rastreador e sistema anti-furto para garantir seu sossego.</p>
+                            </div>  
+                
+                </div>        
+                </section>
+        </main>
+        <footer class="rodape">
+            <p>
+                Bikcraft. Alguns direitos reservados.
+            </p>
+        </footer>
+        <script>
+             function clickMenu() {
+                if(item.style.display =='block') {
+                    item.style.display = 'none'
+                } else {
+                    item.style.display = 'block'
+                }
+            }
+         </script>
+    </body>
+   
+</html>

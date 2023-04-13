@@ -1,0 +1,218 @@
+html, body {
+    font-family: arial;
+    background-color: #f7f7f7;
+    margin: 1.5rem;
+    display:grid;
+    gap:3.75rem;
+    justify-content: center;
+    margin-top: 3.75rem;
+}
+p{
+    font-size: 20px;
+    line-height: 1.3;
+}
+ .introdução{
+    text-align: center;        
+}
+.bikcraft-foto{
+    text-align: center;
+    position: relative;
+    padding:1.9rem;
+}
+.material-icons{
+    margin-right: 600px;
+    cursor:pointer;
+ }
+.menu-item{
+    text-decoration: none;
+    background-color: #fff;
+    color:black;
+    padding: 0.7rem 1.2rem;
+    margin-right: 0.7rem;
+    border-radius:0.25rem;
+    top: 0.7rem;
+    position: relative;   
+}
+a:hover{
+    background:#ee2211;   
+    color:#f7f7f7;
+}
+.conteudo{
+    margin-top: 40px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.nimbus{
+  display:grid;
+  background-color: #fff;
+  padding:20px;
+  text-align:right;
+  gap: 5px;
+  align-items: end;
+  border:#fff solid 1px;
+  position: relative;
+}
+nimbus p {
+    font-size: 18px;
+}
+.nimbus::after {
+    content:"";
+    display: inline-block;
+    width: 40px;
+    height:4px;
+    margin-inline-end:-40px;
+    background: #ee2211;
+    position: absolute;
+    margin-bottom: 325px;
+    margin-left:480px;
+}
+.link-ver-mais{
+    background-color:#ee2211 ;
+    border: #ee2211 solid;
+    border-radius: 4px;
+    color:#f7f7f7;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.foto-bicicleta img{
+    display:grid;
+    width:100%;
+
+}
+.vantagens-bikcraft{
+    display:grid;
+    background-color: #f7f7f7;
+    font-size:64px;
+    color:#c6c6c6;
+    padding: 20px;
+    align-self: center;
+    border: 1px solid #f7f7f7;
+    background-image: url(img/onda.svg);  
+    word-break: break-all; 
+}
+.rodape{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing:border-box;
+}
+.informes{
+    background: #fff;
+    padding: 20px;
+}
+.vantagens-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.vantagens-item p{
+    grid-column: 2;
+    margin-top:-5px;
+}
+.informes-imagem{
+    align-self: center;
+}
+.vantagens-item:hover{
+    border-left: 4px solid #e21;
+}
+.vantagens-item:nth-child(odd){
+    background:#f7f7f7;
+
+}
+.introdução-cover img{
+    object-fit: cover;
+    height:100%;
+    object-position: top left;
+}
+.material-icons:hover{
+    background:#e21;
+    color:black;
+    border-radius: 4px;
+}
+@media (min-width:1100px) {
+    .material-icons{
+        visibility: hidden;
+    }
+}
+@media (min-width:901px) and (max-width:1100px){
+    .informes{
+        grid-template-columns: 1fr;
+    }
+    .nimbus::after{
+        visibility: hidden;
+    }
+    .foto-bicicleta img{
+       width:500px;    
+    }
+    .p{
+        font-size: 1rem;
+        line-height: 1rem  ;
+    }
+    .material-icons{
+        visibility: hidden;
+    }
+    
+}
+@media (min-width:601px) and (max-width:900px){
+    .section{
+        align-content:center;
+    }
+    .conteudo{
+        grid-template-columns: 1fr;
+    }
+    
+    .informes{
+        grid-template-columns: 1fr;
+    }
+    .nimbus::after{
+        visibility: hidden;
+    }
+    .p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }  
+    .menu{
+        display:none;
+    }
+    .conteudo{
+        margin-top:20px;
+    }
+}
+@media (min-width:300px) and (max-width:600px){
+    .conteudo{
+        grid-template-columns: 1fr;
+    }
+    .informes{
+        grid-template-columns: 1fr;
+    }
+    .nimbus::after{
+    visibility: hidden;
+    }
+    .menu-item{
+        justify-content: space-around;
+        gap:5px;
+        position: relative;
+    }
+    .p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .menu{
+        display:none;
+    }
+    .conteudo{
+        margin-top:15px;
+    }
+    .material-icons{
+       margin-right: 500px;
+       margin-top: 5px;
+       position:initial;
+    }
+}
+
+
+
