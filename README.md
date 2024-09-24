@@ -2,7 +2,7 @@
 Exercise from origamid, with improviment of my self, based in my own preffereces. Using html, css and a basics JavaScript,
 <h1 align="center">Site Bicraft - teste </h1>
 
-<img src="https://github.com/user-attachments/assets/728b1f0e-cc11-41e7-9296-8b612cb7f75c" alt="pagina inicial do ping pong">
+<img src="" alt="">
 
 
 
