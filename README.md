@@ -1,5 +1,4 @@
-# site-bikcraft
-Exercise from origamid, with improviment of my self, based in my own preffereces. Using html, css and a basics JavaScript,
+
 <h1 align="center">Site Bicraft - teste </h1>
 
 <img src="" alt="">
