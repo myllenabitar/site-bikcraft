@@ -1,9 +1,7 @@
 
 <h1 align="center">Site Bicraft - teste </h1>
 
-<img src="" alt="">
-
-
+<img src="https://github.com/user-attachments/assets/f6802906-c209-4951-858a-857345477dd7" alt="pagina inicial bikcraft-teste">
 
 
 <h2>Badges:</h2>
